@@ -9,11 +9,13 @@
 	-->
 	<color name="myPrimaryColor">#6295f4</color>
 	<color name="myPrimaryDarkColor">#5b8eed</color>
+	<color name="myPrimaryPressedColor">#5b8ead</color>
 	<color name="myAccentColor">#3F51B5</color>
 	<color name="myDrawerBackground">#f0f0f0</color>
 	<color name="myWindowBackground">#FFFFFF</color>
 	<color name="myTextPrimaryColor">#1F1F1F</color>
 	<color name="myNavigationColor">#000000</color>
 	<color name="myGrayColor">#B3B3B3</color>
+	<color name="myGrayPressedColor">#C3C3C3</color>
 	<color name="myTextSecundaryColor">#858585</color>
 </resources>

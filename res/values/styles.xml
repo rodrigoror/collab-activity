@@ -1,47 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    
-    <style name="AppBaseTheme" parent="android:Theme.Light"/>
-    <style name="AppTheme" parent="AppBaseTheme"/>
-    
 
-   	<style name="bt_customizado">
-	    <item name="android:layout_gravity">center_horizontal</item>
-	    <item name="android:padding">6dp</item>
-	    <item name="android:minWidth">6dp</item>
-	    <item name="android:minHeight">6dp</item>
-	    <item name="android:textSize">16sp</item>
-	    <item name="android:background">@drawable/bt_customizado</item>
-	    <item name="android:textColor">#ffffff</item>
-	    <item name="android:gravity">center</item>
-	</style>
-	
-	<style name="bt_customizado2">
-	    <item name="android:layout_gravity">center_horizontal</item>
-	    <item name="android:padding">6dp</item>
-	    <item name="android:minWidth">6dp</item>
-	    <item name="android:minHeight">6dp</item>
-	    <item name="android:textSize">16sp</item>
-	    <item name="android:textColor">#ffffff</item>
-	<!--     <item name="android:background">#7587a1</item>	 -->    
-	    <item name="android:gravity">center</item>
-	    <item name="android:background">@drawable/bt_customizado2</item>
-	</style>
-	<style name="bt_customizado3">
-	    <item name="android:layout_gravity">center_horizontal</item>
-	    <item name="android:padding">6dp</item>
-	    <item name="android:minWidth">6dp</item>
-	    <item name="android:minHeight">6dp</item>
-	    <item name="android:textSize">16sp</item>
-	    <item name="android:textColor">#ffffff</item>
-<!-- 	    <item name="android:background">#B3B3B3</item>	  -->   
-	    <item name="android:gravity">center</item>
-	    <item name="android:background">@drawable/bt_customizado3</item>
-	</style>
-	
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
 
-    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
 
   <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
       <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
@@ -86,6 +61,39 @@
       <item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_light</item>
   </style>
     
+   	<style name="bt_customizado">
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:padding">6dp</item>
+	    <item name="android:minWidth">6dp</item>
+	    <item name="android:minHeight">6dp</item>
+	    <item name="android:textSize">16sp</item>
+	    <item name="android:background">@drawable/bt_customizado</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	</style>
+	
+	<style name="bt_customizado2">
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:padding">6dp</item>
+	    <item name="android:minWidth">6dp</item>
+	    <item name="android:minHeight">6dp</item>
+	    <item name="android:textSize">16sp</item>
+	    <item name="android:textColor">#ffffff</item>
+	<!--     <item name="android:background">#7587a1</item>	 -->    
+	    <item name="android:gravity">center</item>
+	    <item name="android:background">@drawable/bt_customizado2</item>
+	</style>
+	<style name="bt_customizado3">
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:padding">6dp</item>
+	    <item name="android:minWidth">6dp</item>
+	    <item name="android:minHeight">6dp</item>
+	    <item name="android:textSize">16sp</item>
+	    <item name="android:textColor">#ffffff</item>
+<!-- 	    <item name="android:background">#B3B3B3</item>	  -->   
+	    <item name="android:gravity">center</item>
+	    <item name="android:background">@drawable/bt_customizado3</item>
+	</style>
   
   <style name="Button">
     <item name="android:textColor">@android:color/white</item>
@@ -93,8 +101,7 @@
     <item name="android:minWidth">88dp</item>
     <item name="android:minHeight">36dp</item>
     <item name="android:layout_margin">3dp</item>
-   <item name="android:background">@color/myPrimaryColor</item>
+   <item name="android:background">@drawable/ic_blue_bg</item>
 </style>
-
-	
+  
 </resources>

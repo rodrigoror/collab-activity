@@ -7,5 +7,15 @@
     <string name="botao3">Feeds</string>
     <string name="nomeProjeto">Projeto:</string>
     <string name="contexto">Projetos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_telefone">Celular</string>
+    <string name="hint_email">Email</string>
+    <string name="bt_entrar">Entrar</string>
+	<string name="bt_projeto">Projeto</string>
+	<string name="bt_feed">Feed</string>
+	<string name="bt_principal">Principal</string>
+	<string name="bt_atividade">Atividade</string>
+	<string name="str_welcome">Seja Bem vindo</string>
     
 </resources>

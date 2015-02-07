@@ -1,37 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myWindowBackground"
+    android:gravity="center_vertical|center_horizontal">
+    
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:id="@+id/ll01"
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:background="@color/myPrimaryColor"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" 
+        android:layout_alignTop="@android:attr/top">
 
-
-        <Button
-            android:id="@+id/button_projeto"
-            style="@style/bt_customizado"
+        <ImageView
+            android:id="@+id/header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.47"
-            android:text="Projetos" />
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/hello" />
 
-        <Button
-            android:id="@+id/button_feeds"
-            style="@style/bt_customizado"
+        <TextView
+            style="@style/TabAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/iv_conf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.50"
-            android:text="Feeds" />
-
+            android:contentDescription="@string/hello"
+            android:onClick="iv_conf"
+            android:src="@drawable/ic_dots_vertical"
+            android:background="@drawable/ic_blue_bg" 
+            android:clickable="true"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:id="@+id/ll02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll01"
+        android:background="@color/myPrimaryDarkColor"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
 
-        <TextView
+        <Button
+            android:id="@+id/button_projeto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_projeto" 
+            style="@style/Button"/>
+
+        <Button
+            android:id="@+id/button_feeds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_feed" 
+            style="@style/Button"/>
+    </LinearLayout>
+
+    <ListView
+	    android:id="@android:id/list"
+        android:layout_below="@+id/ll02"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+ <ImageButton
+     android:id="@+id/add_projeto"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:onClick="add_projeto"
+     android:padding="20dp"
+     android:contentDescription="@string/hello_world"
+     android:src="@drawable/ic_bt_add_"
+     android:clickable="true" />
+
+
+       <!--  <TextView
             android:id="@+id/tv_contexto"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -41,20 +97,6 @@
             android:textSize="15dp"
             android:text="@string/contexto"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+ -->    
 
-        <ImageButton
-            android:id="@+id/add_projeto"
-            android:layout_width="44dp"
-            android:layout_height="34dp"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_plus" />
-
-    </LinearLayout>
-    
-    	 <ListView
-        android:id="@android:id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    
-
-</LinearLayout>
+</RelativeLayout>
