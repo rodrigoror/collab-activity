@@ -55,7 +55,7 @@ public class CollabActivityProjectActivity extends Activity {
 		
 		
 		
-		bt_projeto = (Button) findViewById(R.id.bt_projeto);		    
+		bt_projeto = (Button) findViewById(R.id.entrar);		    
 	    bt_projeto.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -67,7 +67,7 @@ public class CollabActivityProjectActivity extends Activity {
 				
 			}
 		});
-	    
+	    /*
 	    bt_feed = (Button) findViewById(R.id.bt_feeds);		    
 	    bt_feed.setOnClickListener(new View.OnClickListener() {
 			
@@ -79,7 +79,7 @@ public class CollabActivityProjectActivity extends Activity {
 				CollabActivityProjectActivity.this.finish();
 				
 			}
-		});
+		});*/
 	}
 	
 
